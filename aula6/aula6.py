@@ -30,4 +30,3 @@ elif (imc >= 35) and (imc <= 39.9):
     print('Obesidade II')
 elif (imc >= 40):
     print('Obesidade Mórbida')
-
