@@ -22,8 +22,11 @@ print(f'{num_3:0>10}')
 num_4 = 1150
 print(f'{num_4:0>10.2f}')
 
-nome = 'Marcelo Abbi'
+nome = 'Marcelo abbi'
 print((50-len(nome)) / 2)
+print(nome.lower()) #  Tudo minusculo
+print(nome.upper()) #  Tudo maiusculo
+print(nome.title()) #  Primeiras letras maiusculas
 
 print(f'{nome:#^50}')
 
