@@ -17,7 +17,7 @@ for letra in texto:
 
 print(nova_string)
 
- c = 0
+c = 0
 while c < len(texto):
     print(texto[c])
     c += 1
