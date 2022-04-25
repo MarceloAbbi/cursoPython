@@ -14,7 +14,7 @@ print(lista2)
 palavra = ''
 contagem = 0
 for valor in lista1:
-    print(f'A palavra "{valor}" apareceu {lista1.count(valor)}x na frase')
+    # print(f'A palavra "{valor}" apareceu {lista1.count(valor)}x na frase')
     qtd_vezes = lista1.count(valor)
 
     if qtd_vezes > contagem:
